@@ -1,0 +1,243 @@
+import pyautogui
+import time
+import keyboard
+
+def coordonate():
+    print(pyautogui.position())
+    time.sleep(0.5)
+
+
+def cautare_google():
+    #
+    print("Cautam imaginea pe ecran")
+    time.sleep(0.1)
+    print(".")
+    time.sleep(0.1)
+    print(".")
+    time.sleep(0.1)
+    print(".")
+    time.sleep(0.2)
+    print(".")
+    time.sleep(0.3)
+    print(".")
+    #
+    #
+    if pyautogui.locateOnScreen(r'C:\Users\TeyRo\Desktop\Chrome\Cautare.png.png', confidence = 0.7) != None:
+        #Daca search google a fost gasit
+        #
+        #
+        print("Imaginea a fost gasita cu succes")
+        time.sleep(0.1)
+        #
+        #
+        #
+        print("Cream variabila pentru cautarea imaginii de search din google")
+        camp_google = pyautogui.locateOnScreen(r'C:\Users\TeyRo\Desktop\Chrome\Cautare.png.png', confidence = 0.7)
+        time.sleep(0.1)
+        print("Variabila creata cu succes!")
+        #
+        #
+        #
+        time.sleep(0.1)
+        print("Apasam pe cautarea google")
+        time.sleep(0.1)
+        pyautogui.click(camp_google)
+        time.sleep(0.1)
+        print("Apasare efectuata cu succes la coordonatele:")
+        coordonate()
+        #
+        #
+        #
+        time.sleep(0.1)
+        print("Scriem site-ul web")
+        time.sleep(0.1)
+        pyautogui.write('h')
+        pyautogui.write('t')
+        pyautogui.write('t')
+        pyautogui.write('p')
+        pyautogui.write('s')
+        pyautogui.write(':')
+        pyautogui.write('/')
+        pyautogui.write('/')
+        pyautogui.write('y')
+        pyautogui.write('o')
+        pyautogui.write('u')
+        pyautogui.write('t')
+        pyautogui.write('u')
+        pyautogui.write('b')
+        pyautogui.write('e')
+        pyautogui.write('.')
+        pyautogui.write('c')
+        pyautogui.write('o')
+        pyautogui.write('m')
+        time.sleep(0.2)
+        print("Site web scris cu succes!")
+        #
+        #
+        #
+        time.sleep(0.5)
+        print("Apasam tasta enter")
+        time.sleep(0.1)
+        pyautogui.press('enter')
+        time.sleep(0.3)
+        print("Apasare efectuata cu succes la coordonatele:")
+        coordonate()
+        time.sleep(2)
+        #
+        #
+        print("Cautam imaginea Search YT pe ecran")
+        time.sleep(0.1)
+        print(".")
+        time.sleep(0.1)
+        print(".")
+        time.sleep(0.1)
+        print(".")
+        time.sleep(0.2)
+        print(".")
+        time.sleep(0.3)
+        print(".")
+        #
+        #
+        
+        if pyautogui.locateOnScreen(r'C:\Users\TeyRo\Desktop\Chrome\Search.png', confidence = 0.7) != None:
+            #Daca search YT a fost gasit
+            #
+            #
+            print("Imaginea Search YT a fost gasita cu succes")
+            time.sleep(0.1)
+            #
+            #
+            #
+            print("Cream variabila pentru cautarea imaginii de pe YT")
+            camp_youtube = pyautogui.locateOnScreen(r'C:\Users\TeyRo\Desktop\Chrome\Search.png', confidence = 0.7)
+            time.sleep(0.2)
+            print("Variabila creata cu succes!")
+            #
+            #
+            #
+            time.sleep(0.2)
+            print("Apasam pe cautare YT")
+            time.sleep(0.1)
+            pyautogui.click(camp_youtube)
+            time.sleep(0.3)
+            print("Apasare efectuata cu succes la coordonatele:")
+            coordonate()
+            #
+            #
+            #
+            time.sleep(0.1)
+            print("Scriem in cautare")
+            pyautogui.write('c')
+            pyautogui.write('o')
+            pyautogui.write('c')
+            pyautogui.write('o')
+            pyautogui.write('n')
+            pyautogui.write('u')
+            pyautogui.write('t')
+            pyautogui.write(' ')
+            pyautogui.write('s')
+            pyautogui.write('o')
+            pyautogui.write('n')
+            pyautogui.write('g')
+            time.sleep(0.3)
+            print("Scriere efectuata cu succes")
+            #
+            #
+            #
+            time.sleep(0.1)
+            print("Apasam pe tasta enter")
+            time.sleep(0.2)
+            pyautogui.press('enter')
+            time.sleep(0.1)
+            print("Tasta enter apasata cu succes")
+            #
+            #
+            print("Cautam imaginea cu contul Jeff Lau pe ecran")
+            time.sleep(0.1)
+            print(".")
+            time.sleep(0.1)
+            print(".")
+            time.sleep(0.2)
+            print(".")
+            time.sleep(0.3)
+            print(".")
+            time.sleep(0.4)
+            print(".")
+            #
+            #
+
+            if pyautogui.locateOnScreen(r'C:\Users\TeyRo\Desktop\Chrome\JeffLau.png', confidence =  0.7) != None:
+                #Daca Jeff Lau a fost gasit
+                print("Jeff Lau a fost gasit")
+                time.sleep(0.2)
+                #
+                #
+                #
+                print("Cream variabila pentru contul de pe YT")
+                camp_cont = pyautogui.locateOnScreen(r'C:\Users\TeyRo\Desktop\Chrome\JeffLau.png', confidence =  0.7)
+                time.sleep(0.3)
+                print("Variabila creata cu succes")
+                #
+                #
+                #
+                time.sleep(0.1)
+                print("Apasam pe cont")
+                pyautogui.click(camp_cont)
+                time.sleep(0.3)
+                print("Apasare efectuata cu succes la coordonatele:")
+                coordonate()
+                #
+                #
+                print("Cautam butonul de Suscribe pe ecran")
+                time.sleep(0.1)
+                print(".")
+                time.sleep(0.1)
+                print(".")
+                time.sleep(0.1)
+                print(".")
+                time.sleep(0.1)
+                print(".")
+                time.sleep(0.1)
+                print(".")
+                #
+                #
+                
+
+                if pyautogui.locateOnScreen(r'C:\Users\TeyRo\Desktop\Chrome\Suscribe.png', confidence =  0.7) != None:
+                    #Daca Suscribe a fost gasit
+                    print("Suscribe a fost gasit cu succes")
+                    time.sleep(0.2)
+                    #
+                    #
+                    #
+                    print("Cream variabila pentru butonul de suscribe")
+                    camp_suscribe = pyautogui.locateOnScreen(r'C:\Users\TeyRo\Desktop\Chrome\Suscribe.png', confidence =  0.7)
+                    time.sleep(0.3)
+                    print("Variabila creata cu succes")
+                    #
+                    #
+                    #
+                    time.sleep(0.2)
+                    print("Apasam pe butonul de suscribe")
+                    pyautogui.click(camp_suscribe)
+                    time.sleep(0.2)
+                    print("Apasare efectuata cu succes la coordonatele:")
+                    coordonate()
+                    time.sleep(0.5)
+                else:
+                    #Daca Suscribe nu a fost gasit
+                    print("Suscribe nu a fost gasit")
+            else:
+                #Daca Jeff Lau nu a fost gasit
+                print("Jeff Lau nu a fost gasit")
+
+        else:
+            #Daca Search YT nu a fost gasit
+            print("Imaginea Search YT nu este pe ecran")
+    else:
+        #Daca search google nu a fost gasit
+        print("imaginea nu este pe ecran")
+
+while 1:
+    cautare_google()
+
