@@ -22,7 +22,7 @@ def cautare_google():
     print(".")
     #
     #
-    if pyautogui.locateOnScreen(r'C:\Users\TeyRo\Desktop\Chrome\Cautare.png.png', confidence = 0.7) != None:
+    if pyautogui.locateOnScreen(r'Your\Google\SearchBar\Screenshot.png', confidence = 0.7) != None:
         #Daca search google a fost gasit
         #
         #
@@ -32,7 +32,7 @@ def cautare_google():
         #
         #
         print("Cream variabila pentru cautarea imaginii de search din google")
-        camp_google = pyautogui.locateOnScreen(r'C:\Users\TeyRo\Desktop\Chrome\Cautare.png.png', confidence = 0.7)
+        camp_google = pyautogui.locateOnScreen(r'Your\Google\SearchBar\Screenshot.png', confidence = 0.7)
         time.sleep(0.1)
         print("Variabila creata cu succes!")
         #
@@ -99,7 +99,7 @@ def cautare_google():
         #
         #
         
-        if pyautogui.locateOnScreen(r'C:\Users\TeyRo\Desktop\Chrome\Search.png', confidence = 0.7) != None:
+        if pyautogui.locateOnScreen(r'Your\YouTube\SearchBar\Here.png', confidence = 0.7) != None:
             #Daca search YT a fost gasit
             #
             #
@@ -109,7 +109,7 @@ def cautare_google():
             #
             #
             print("Cream variabila pentru cautarea imaginii de pe YT")
-            camp_youtube = pyautogui.locateOnScreen(r'C:\Users\TeyRo\Desktop\Chrome\Search.png', confidence = 0.7)
+            camp_youtube = pyautogui.locateOnScreen(r'Your\YouTube\SearchBar\Here.png', confidence = 0.7)
             time.sleep(0.2)
             print("Variabila creata cu succes!")
             #
@@ -166,7 +166,7 @@ def cautare_google():
             #
             #
 
-            if pyautogui.locateOnScreen(r'C:\Users\TeyRo\Desktop\Chrome\JeffLau.png', confidence =  0.7) != None:
+            if pyautogui.locateOnScreen(r'Jeff\Lau\Account\Screenshot\Here.png', confidence =  0.7) != None:
                 #Daca Jeff Lau a fost gasit
                 print("Jeff Lau a fost gasit")
                 time.sleep(0.2)
@@ -174,7 +174,7 @@ def cautare_google():
                 #
                 #
                 print("Cream variabila pentru contul de pe YT")
-                camp_cont = pyautogui.locateOnScreen(r'C:\Users\TeyRo\Desktop\Chrome\JeffLau.png', confidence =  0.7)
+                camp_cont = pyautogui.locateOnScreen(r'Jeff\Lau\Account\Screenshot\Here.png', confidence =  0.7)
                 time.sleep(0.3)
                 print("Variabila creata cu succes")
                 #
@@ -203,7 +203,7 @@ def cautare_google():
                 #
                 
 
-                if pyautogui.locateOnScreen(r'C:\Users\TeyRo\Desktop\Chrome\Suscribe.png', confidence =  0.7) != None:
+                if pyautogui.locateOnScreen(r'Suscribe\Button.png', confidence =  0.7) != None:
                     #Daca Suscribe a fost gasit
                     print("Suscribe a fost gasit cu succes")
                     time.sleep(0.2)
@@ -211,7 +211,7 @@ def cautare_google():
                     #
                     #
                     print("Cream variabila pentru butonul de suscribe")
-                    camp_suscribe = pyautogui.locateOnScreen(r'C:\Users\TeyRo\Desktop\Chrome\Suscribe.png', confidence =  0.7)
+                    camp_suscribe = pyautogui.locateOnScreen(r'Suscribe\Button.png', confidence =  0.7)
                     time.sleep(0.3)
                     print("Variabila creata cu succes")
                     #
